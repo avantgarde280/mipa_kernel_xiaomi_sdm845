@@ -26,7 +26,8 @@ jobs:
         NAME: MiPaKernel
       with:
         arch: arm64
-        compiler: proton-clang/master
+        compiler: aosp-clang/android10-release/clang-r349610
+        #proton-clang/master
         defconfig: mipa_polaris_defconfig
         image: Image.gz-dtb
 
