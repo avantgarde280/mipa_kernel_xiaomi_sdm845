@@ -123,7 +123,7 @@ $(obj)/configs.o: $(obj)/config_data.h
 # Info from config_data can be extracted from /proc/config*
 targets += config_data.gz
 ifeq ($(CONFIG_MACH_XIAOMI_D5X),y)
-$(obj)/config_data.gz: arch/arm64/configs/polaris_stock_defconfig FORCE
+$(obj)/config_data.gz: arch/arm64/configs/miui12_stock_defconfig FORCE
 else ifeq ($(CONFIG_MACH_XIAOMI_E1N),y)
 $(obj)/config_data.gz: arch/arm64/configs/dipper_stock_defconfig FORCE
 else ifeq ($(CONFIG_MACH_XIAOMI_E10),y)
