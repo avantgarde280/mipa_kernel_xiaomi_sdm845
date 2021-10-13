@@ -28,7 +28,7 @@ jobs:
         arch: arm64
         compiler: proton-clang/master/binutils
 	#aosp-clang/android10-release/clang-r349610/binutils
-        #proton-clang/master
+	#proton-clang/master
         defconfig: mipa_polaris_defconfig
         image: Image.gz-dtb
 
