@@ -27,7 +27,7 @@ jobs:
       with:
         arch: arm64
         compiler: proton-clang/master/binutils
-        defconfig: twisted_mimix2s_v44_defconfig
+        defconfig: mipa_polaris_defconfig
         image: Image.gz-dtb
 
     - name: Release build
