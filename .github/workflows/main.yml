@@ -4,7 +4,7 @@ name: Build on push master
 
 on:
   push:
-    branches: [ mipa-q-rebase ]
+    branches: [ main ]
 
 jobs:
   build:
